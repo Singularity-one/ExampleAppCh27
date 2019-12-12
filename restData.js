@@ -1,0 +1,13 @@
+module.exports = function(){
+    var data={
+        products:[
+            {id:1, name: "Kayak", category:"Watersports", price:"275"},
+            {id:2, name: "Lifejacket", category:"Watersports", price:"48.95"},
+            {id:3, name: "Soccer Ball", category:"Soccer", price:"19.50"},
+            {id:4, name: "Corner Flags", category:"Soccer", price:"34.95"},
+            {id:5, name: "Stadium", category:"Soccer", price:"79500"},
+            {id:6, name: "Thinking Cap", category:"Chess", price:"16"}
+        ]
+    }
+    return data;
+}
